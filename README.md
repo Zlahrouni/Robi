@@ -9,6 +9,7 @@ Creation and addition of 2D graphic objects with various shapes, colors, and siz
 Implementation of a Robi server to handle requests for creating and adding 2D graphic objects and returning the results to clients via Sockets.
 
 ## Part 3: Robi Client
+![javaw_uo0bKt8Fj5](https://user-images.githubusercontent.com/75903708/235365905-14256d06-b3b2-4efe-9dc9-2719df8cec46.png)
 The Robi client features a graphical interface that includes:
 - A text field for sending scripts
 - Two buttons (send and execute) for running scripts in "step by step" or "block" mode
