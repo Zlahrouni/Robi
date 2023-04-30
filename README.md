@@ -1,36 +1,40 @@
 # Robi
 
-Robi est un prototype de moniteur permettant la création, l'ajout et l'animation d'éléments graphiques basiques tels que des rectangles, ellipses, lignes ou textes. Le projet se divise en deux parties :
+Robi is a prototype monitor for the creation, addition, and animation of basic graphic elements such as rectangles, ellipses, lines, or texts. The project is divided into three parts:
 
-## Partie 1 : Gestion d'objets graphiques 2D
-Création et ajout d'objets graphiques 2D avec différentes formes, couleurs et tailles, affichés sur une fenêtre JFrame.
+## Part 1: 2D Graphic Objects Management
+Creation and addition of 2D graphic objects with various shapes, colors, and sizes, displayed on a JFrame window.
 
-## Partie 2 : Serveur Robi
-Implémentation d'un serveur Robi pour gérer les requêtes de création et d'ajout d'objets graphiques 2D et renvoyer les résultats aux clients via des Sockets.
+## Part 2: Robi Server
+Implementation of a Robi server to handle requests for creating and adding 2D graphic objects and returning the results to clients via Sockets.
 
-## Partie 3 : Client Robi
-Le client Robi dispose d'une interface graphique comprenant :
-- Un champ de texte pour envoyer des scripts
-- Deux boutons (envoyer et exécuter) pour l'exécution des scripts en mode "step by step" ou "bloc"
-- Une section de logs pour afficher l'historique des actions effectuées
-- Une zone d'affichage des objets graphiques créés et modifiés
+## Part 3: Robi Client
+The Robi client features a graphical interface that includes:
+- A text field for sending scripts
+- Two buttons (send and execute) for running scripts in "step by step" or "block" mode
+- A log section to display the history of actions performed
+- A display area for created and modified graphic objects
 
-## Fonctionnalités
-- Création, ajout et suppression d'objets graphiques
-- Modification des objets (couleur, dimensions, position)
-- Gestion des commandes pour chaque objet ajouté
-- Affichage de l’environnement et du résultat côté client, y compris les objets graphiques
-- Interface graphique pour l'envoi et l'exécution des scripts
+## Features
+- Creation, addition, and deletion of graphic objects
+- Modification of objects (color, dimensions, position)
+- Command management for each added object
+- Display of the environment and the result on the client-side, including graphic objects
+- Graphical interface for sending and executing scripts
 
 ## Technologies
-- Architecture client-serveur
+- Client-server architecture
 - Java (Swing, Jackson)
-- Communication via JSON et Sockets
-- Classes DataCS et DataSC pour la gestion des requêtes et des réponses
-- GitLab pour le contrôle de version
+- Communication via JSON and Sockets
+- DataCS and DataSC classes for handling requests and responses
+- GitLab for version control
 
-## Auteurs
-- Hanane Erraji
+## License
+
+This project is licensed under the MIT License. For more information, please see the `License` file included in this repository.
+
+## Authors
 - Ziad Lahrouni
+- Hanane Erraji
 - Youenn Robitzer
 - Gwendal Le Tareau
