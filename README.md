@@ -26,7 +26,6 @@ The Robi client features a graphical interface that includes:
 - Client-server architecture
 - Java (Swing, Jackson)
 - Communication via JSON and Sockets
-- DataCS and DataSC classes for handling requests and responses
 - GitLab for version control
 
 ## License
