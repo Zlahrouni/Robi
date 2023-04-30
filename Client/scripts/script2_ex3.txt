@@ -1,0 +1,5 @@
+(space setColor black)
+(robi translate 30 50)
+(robi setColor white)
+(space setColor blue)
+

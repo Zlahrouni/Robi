@@ -1,0 +1,4 @@
+(space setColor red)
+(robi setColor purple)
+(space setColor blue)
+(robi translate 30 0)
