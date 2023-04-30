@@ -1,4 +1,4 @@
-# Robi
+# Robi (FR)
 
 Ce projet consiste en la création d'un prototype de moniteur pour un système de commande d'éléments graphiques représentés par des formes géométriques basiques telles que des rectangles, des ellipses, des lignes ou du texte. Le moniteur permet aux utilisateurs d'installer ces éléments dans un conteneur et de les animer. 
 
